@@ -1,0 +1,107 @@
+body {
+  background-color: #121214;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+}
+.container-pai {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-logo {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+.perfis-img {
+  width: 160px;
+  height: 160px;
+}
+.perfis-img:hover {
+  border: solid white 1px;
+  border-radius: 7px;
+}
+.container-titulo {
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: white;
+}
+.container-lista {
+  max-width: 700px;
+  margin-bottom: 25px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+li {
+  width: 160px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.perfis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+a:hover {
+  color: white;
+}
+.perfis-texto {
+  color: #9c9c9c;
+  font-size: medium;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.addprofile-a {
+  background-color: #1e1e20;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+.addprofile-a:hover {
+  border: solid white 1px;
+  border-radius: 7px;
+}
+.addprofile-img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+button {
+  display: block;
+  color: white;
+  cursor: pointer;
+  border: solid white;
+  border-radius: 7px;
+  background-color: #121214;
+  margin: 5px;
+  padding: 12px 40px 12px 40px;
+  text-align: center;
+}
+button:hover {
+  border: transparent;
+  color: #121214;
+  background-color: white;
+}
