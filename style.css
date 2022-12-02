@@ -20,14 +20,6 @@ img {
   align-items: center;
   border-radius: 7px;
 }
-.perfis-img {
-  width: 160px;
-  height: 160px;
-}
-.perfis-img:hover {
-  border: solid white 1px;
-  border-radius: 7px;
-}
 .container-titulo {
   justify-content: center;
   align-items: center;
@@ -60,8 +52,9 @@ li {
   align-content: center;
   align-items: center;
 }
-a:hover {
-  color: white;
+.perfis-img {
+  width: 160px;
+  height: 160px;
 }
 .perfis-texto {
   color: #9c9c9c;
@@ -69,8 +62,19 @@ a:hover {
   text-decoration: none;
   margin-top: 10px;
 }
+.perfis:hover .perfis-img {
+  border: solid white 1px;
+  border-radius: 7px;
+  transition: 500ms;
+  box-sizing: border-box;
+}
+.perfis:hover .perfis-texto {
+  color: white;
+  transition: 500ms;
+}
 .addprofile-a {
   background-color: #1e1e20;
+  opacity: 50%;
   width: 160px;
   height: 160px;
   display: flex;
@@ -79,15 +83,18 @@ a:hover {
   align-items: center;
   border-radius: 7px;
 }
-.addprofile-a:hover {
-  border: solid white 1px;
-  border-radius: 7px;
-}
 .addprofile-img {
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
+}
+.perfis:hover .addprofile-a {
+  border: solid white 1px;
+  border-radius: 7px;
+  opacity: 100%;
+  transition: 500ms;
+  box-sizing: border-box;
 }
 button {
   display: block;
@@ -101,7 +108,7 @@ button {
   text-align: center;
 }
 button:hover {
-  border: transparent;
   color: #121214;
   background-color: white;
+  transition: 500ms;
 }
