@@ -7,9 +7,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 45px;
+}
+.container-pai div {
+  margin-bottom: 20px;
 }
 .container-logo {
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,6 +40,7 @@ ul {
   justify-content: center;
   align-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 li {
   width: 160px;
@@ -99,6 +103,8 @@ li {
 button {
   display: block;
   color: white;
+  font-size: medium;
+  font-weight: bold;
   cursor: pointer;
   border: solid white;
   border-radius: 7px;
